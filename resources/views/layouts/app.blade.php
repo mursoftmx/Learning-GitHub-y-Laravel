@@ -86,7 +86,7 @@
 
         <main class="py-4">
             <div class="container-fluid">
-                <!--
+                <!-- este texto es un comenario para pruebas de Git.
                 @if (session()->has('error'))
                 <div class="alert alert-danger">
                     {{ session()->get('error') }}

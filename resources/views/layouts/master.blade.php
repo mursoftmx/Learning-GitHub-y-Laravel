@@ -5,7 +5,7 @@
     <title>Learn Laravel</title>
 </head>
 <body>
-    <!--
+    <!-- texto agregado al comenario para pruebas de Git.
     @if (session()->has('error'))
         <div class="alert alert-danger">
             {{ session()->get('error') }}
