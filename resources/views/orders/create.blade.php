@@ -30,7 +30,7 @@
                         <td>{{$product->price}}</td>
                         <td>{{$product->pivot->quantity}}</td>
                         <td>
-                            <!--<strong>{{ $product->pivot->quantity * $product->price }}</strong>-->
+                            <!--<strong>{{ $product->pivot->quantity * $product->price }}</strong> texto agregado para pruebas de Git. -->
                             <strong>${{ $product->total }}</strong>
                         </td>
                     </tr>
