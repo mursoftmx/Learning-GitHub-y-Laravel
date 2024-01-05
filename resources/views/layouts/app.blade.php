@@ -37,7 +37,7 @@
                             </li>
                         @endif
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('carts.index') }}">Articulos en el carrito ({{ $cartService->countProducts() }})</a>
+                            <a class="nav-link" href="{{ route('carts.index') }}">Cart Products ({{ $cartService->countProducts() }})</a>
                         </li>
                     </ul>
 
