@@ -29,7 +29,7 @@
         @else
             <form method="POST" class="d-inline" action="{{ route('products.carts.store', ['product' => $product->id]) }}">
                 @csrf
-                <button type="submit" class="btn btn-success">Add To Cart</button>
+                <button type="submit" class="btn btn-success">Agregar al carrito</button>
             </form>
         @endif
     </div>
