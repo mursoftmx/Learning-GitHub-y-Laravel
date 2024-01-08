@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>Bienvenido</h1>
+    <h1>Wellcome</h1>
     @empty($products)
         <div class="alert alert-danger">
             No products yet!
