@@ -4,7 +4,7 @@
     <h1>Wellcome</h1>
     @empty($products)
         <div class="alert alert-danger">
-            The cart is empty!
+            The cart is empty, no items yet!
         </div>
     @else
         <div class="row">
